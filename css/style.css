@@ -643,6 +643,7 @@ footer .images{
     .menu-cabecalho ul{
         top: 260px;
     }
+    
 }
 @media only screen and (max-width: 445px)  {
     header .check-label{
@@ -656,6 +657,16 @@ footer .images{
     }
     .menu-cabecalho ul{
         top: 520px;
+    }
+
+    .contato .mensagem{
+        margin-top: 25px;
+    }   
+    .contato .secao-contato a{
+        margin-top: 10px;
+    }
+    .secao-endereco{
+        margin-right: 40px;
     }
 }
 @media only screen and (max-width: 395px)  {
@@ -702,6 +713,8 @@ footer .images{
     }
     
 }
+
+
 
 
 
