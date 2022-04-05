@@ -640,6 +640,9 @@ footer .images{
     .texto-direita .sub-resumo{
         padding-left: 20px;
     }
+    .menu-cabecalho ul{
+        top: 260px;
+    }
 }
 @media only screen and (max-width: 445px)  {
     header .check-label{
@@ -650,6 +653,9 @@ footer .images{
     }
     .texto-direita .sub-resumo{
         padding-left: 30px;
+    }
+    .menu-cabecalho ul{
+        top: 267px;
     }
 }
 @media only screen and (max-width: 395px)  {
@@ -677,6 +683,9 @@ footer .images{
     }
     .secao-endereco{
         margin-right: 40px;
+    }
+    .menu-cabecalho ul{
+        top: 275px;
     }
 }
 @media only screen and (max-width: 305px)  {
