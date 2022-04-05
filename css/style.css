@@ -1,0 +1,695 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body, header, img, main, footer, ul, nav, h1, h2, p, figure{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header .check-label{
+    display: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: goldenrod;
+    width: 100vw;
+    position: fixed;
+    z-index: 1;
+}
+
+.titulo-cabecalho{
+    display: flex;
+    align-items: center;
+    font-size: 0.5rem;
+}
+
+.titulo-cabecalho img{
+    width: 110px;
+    margin-left: 40px;
+
+}
+
+.titulo-cabecalho a{
+    text-decoration: none;
+}
+.menu-cabecalho ul{
+    list-style: none;
+    display: flex;
+    margin-right: 30px;
+    
+}
+.menu-cabecalho ul li{
+    padding: 10px 20px;
+    transition: all 0.3s;
+}
+.menu-cabecalho ul li a{
+    text-decoration: none;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.menu-cabecalho ul li:hover{
+    border-bottom: 3px solid #fff;
+    font-weight: bold;
+    
+}
+
+.imagem-principal img{
+    width: 100%;
+    height: 450px;
+}
+
+.imagem-principal{
+    display: flex;
+    justify-content: center;
+}
+
+.principal figcaption{
+    display: none;
+}
+
+.principal h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 7.5rem 0 1.5rem 0;
+}
+
+.servicos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;  
+}
+
+.servicos div p{
+    font-weight: 100;
+}
+    
+.divisao-estilo-1{  
+    display: flex;  
+    justify-content: center;
+}
+
+.divisao-estilo-2{
+    display: flex;
+    justify-content: center;
+}
+
+.divisao-estilo-1 div{
+    background-color: #eeeeee;
+    margin: 20px;
+    padding: 40px;
+    width: 25%;
+    text-align: center;
+}
+
+.valor-servico{
+    margin-top: 30px;
+}
+
+.servicos figure{
+    display: flex;
+    justify-content: center;
+}
+
+.servicos figure img{
+    width: 40px;
+}
+
+.servicos a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.75rem;
+    padding: 12px;
+    background-color: goldenrod;
+    margin: 15px 0;
+    border-radius: 30px;
+}
+
+.servicos a:hover{
+    background-color: rgb(160, 119, 17);
+    font-size: 11px;
+}
+
+.sobre-nos{
+    margin-top: 7.5rem;
+}
+.sobre-nos h2{
+    text-transform: uppercase;
+    text-align: start;
+}
+
+.sobre-nos p{
+    font-size: 0.87rem;
+    margin-right: 40px;
+    opacity: 0.6;
+}
+
+.sobre-nos .sub-resumo{
+    color: goldenrod;
+    padding: 20px 0;
+}
+
+.sobre-nos figure{
+    float: left;
+}
+
+.sobre-nos img{
+    width: 300px;
+    margin: 0 60px;
+}
+
+.texto-direita a{
+    padding: 12px;
+    background-color: goldenrod;
+    text-decoration: none;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 0.75rem;
+}
+.texto-direita a:hover{
+    background-color: rgb(160, 119, 17);
+    font-size: 11px;
+}
+
+.contato .secoes-horario{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.contato .box{
+    background-color: #eeeeee;
+    padding: 10px 15px 15px 15px;
+    border: 3px double #000; 
+}
+
+.contato p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+.contato span{
+    opacity: 0.6;
+}
+
+.contato .agendamento{
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 120px;
+    color: #fff;
+    padding: 5px 0;
+    text-decoration: none;
+    background-color: goldenrod;
+    text-align: center;
+    width: 100%;
+}
+
+.contato .agendamento:hover{
+    background-color: rgb(160, 119, 17);
+    font-size: 0.75rem;
+}
+
+.contato .secao-contato{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    height: 17rem;
+}
+
+.contato .mensagem{
+    margin-top: 50px;
+    font-size: 12px;
+    color: goldenrod;
+    opacity: 0.8;
+}
+.contato .secao-contato a{
+    display: inline-block;
+    font-size: 0.75rem;
+    margin-top: 26px;
+    color: #fff;
+    padding: 5px 0;
+    text-decoration: none;
+    background-color: goldenrod;
+    text-align: center;
+    width: 100%;
+}
+
+.contato .secao-contato a:hover{
+    background-color: rgb(160, 119, 17);
+    font-size: 11px;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    height: 190px;
+    margin-top: 7.5rem;
+}
+footer .secoes{
+    display: flex;
+    
+}
+
+footer .secao-endereco{
+    margin-left: 20px ;
+}
+
+footer h3{
+    font-size: 0.75rem;
+    width: 20vw;
+    text-align: center;
+    padding-top: 5px;
+}
+
+footer .endereco{
+    width: 20vw;
+    text-align: center;
+    font-size: 0.75rem;
+    opacity: 0.6;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+footer .copy{
+    text-align: center;
+    margin: 0 auto;
+    width: 20%;
+    font-size: 0.65rem;
+    opacity: 0.6;
+}
+
+footer i{
+    color: #fff;
+    opacity: 0.7;
+    padding: 0.5rem;
+    transition: all 0.3s ease ;
+}
+
+footer i:hover{
+    cursor: pointer;
+    opacity: 1;
+    color: goldenrod;
+}
+
+footer .images{
+    text-align: center;
+}
+
+@media only screen and (max-width: 775px)  {
+    .imagem-principal img{
+        width: 100%;
+        height: 410px;
+    }
+
+    .principal h2{
+        font-size: 1.2rem;
+    }
+
+    .divisao-estilo-1 div{
+        font-size: 0.7rem; 
+    }
+
+    .servicos figure img{
+        width: 35px;
+    }
+
+    .servicos a{
+        font-size: 0.6rem;
+    }
+
+    .sobre-nos p{
+        font-size: 0.7rem;
+    }
+
+    .sobre-nos img{
+        width: 275px;
+        margin: 0 60px;
+    }
+
+    .texto-direita a{
+        font-size: 0.6rem;
+    } 
+    
+    .contato .box{
+        font-size: 0.7rem;
+    }
+
+    .contato .agendamento{
+        font-size: 0.6rem;
+    }
+
+    .contato .secao-contato a{
+        font-size: 0.6rem;
+    }
+
+    .box p{
+        font-size: 0.7rem;
+    }
+
+    .box .mensagem{
+        font-size: 0.7rem;
+    }
+
+    .box iframe{
+        width: 190px;
+        height: 190px;
+    }
+
+    footer h3{
+        font-size: 0.7rem;
+    }
+
+    footer .endereco{
+        font-size: 0.6rem;
+    }
+
+    footer .copy{
+        margin: 0 auto;
+    }
+
+}
+@media only screen and (max-width: 690px)  {
+    .menu-cabecalho ul li a{
+        font-size: 0.65rem;
+    }
+    
+    .imagem-principal img{
+        width: 100%;
+        height: 390px;
+    }
+
+    .principal h2{
+        font-size: 1rem;
+    }
+
+    .divisao-estilo-1 div{
+        font-size: 0.6rem; 
+    }
+
+    .servicos figure img{
+        width: 30px;
+    }
+
+    .servicos a{
+        font-size: 0.5rem;
+    }
+
+    .sobre-nos p{
+        font-size: 0.55rem;
+    }
+
+    .sobre-nos img{
+        width: 250px;
+        margin: 0 60px;
+    }
+
+    .texto-direita a{
+        font-size: 0.5rem;
+    } 
+    
+    .contato .box{
+        font-size: 0.6rem;
+    }
+
+    .contato .agendamento{
+        font-size: 0.6rem;
+    }
+
+    .contato .secao-contato a{
+        font-size: 0.6rem;
+    }
+
+    .box p{
+        font-size: 0.6rem;
+    }
+
+    .box .mensagem{
+        font-size: 0.6rem;
+    }
+
+    .box iframe{
+        width: 160px;
+        height: 185px;
+    }
+
+    footer h3{
+        font-size: 0.6rem;
+    }
+
+    footer .endereco{
+        font-size: 0.5rem;
+    }
+
+    footer i{
+        width: 5px;
+    }
+
+    footer .copy{
+        margin: 0 auto;
+        font-size: 0.6rem;
+    }
+
+}
+@media only screen and (max-width: 575px)  {
+    header .check-label{
+        display: flex;
+        position: absolute;
+        left: 480px;
+        padding: 15px;
+        position: absolute;
+        z-index: 1;
+    }
+
+    header .check-label img{
+        width: 40px;
+    }
+
+    .menu-cabecalho{
+        background-color: rgba(16, 16, 16, 0.5);
+        width: 350px;
+        height: 100vh;
+        right: -750px;
+        position: absolute;
+        transition: all 0.3s;
+    }
+
+    header input[type="checkbox"]:checked ~ .menu-cabecalho{
+        transform: translateX(-550px);
+    }
+
+    .menu-cabecalho ul{
+        position: absolute;
+        top: 250px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .menu-cabecalho ul li a{
+        font-size: 0.65rem;
+        
+        padding: 20px 5px;
+        color: #fff;
+    }
+
+    .menu-cabecalho ul li:hover{
+        opacity: 0.7;
+        border: none;
+        
+    }
+    
+    .imagem-principal img{
+        width: 100%;
+        height: 360px;
+        
+    }
+
+    .principal h2{
+        font-size: 0.9rem;
+    }
+
+    .divisao-estilo-1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .divisao-estilo-2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .divisao-estilo-1 div{
+        font-size: 0.6rem; 
+    }
+
+    .servicos figure img{
+        width: 27px;
+    }
+
+    .servicos a{
+        font-size: 0.55rem;
+    }
+
+    .sobre-nos h2{
+        text-align: center;
+    }
+
+    .sobre-nos p{
+        font-size: 0.5rem;
+        padding-left: 20px;
+    }
+
+    .sobre-nos figure{
+        float: none;
+        display: flex;
+        justify-content: center;
+    }
+    
+
+    .sobre-nos img{
+        width: 220px;
+    }
+
+    .texto-direita{
+        text-align: center;
+    }
+
+    .texto-direita a{
+        font-size: 0.45rem;
+    }
+    
+    .secoes-horario{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .contato .box{
+        font-size: 0.6rem;
+        margin: 10px;
+    }
+
+    .contato .agendamento{
+        font-size: 0.6rem;
+    }
+
+    .contato .secao-contato{
+        margin-top: 0;
+    }
+
+    .contato .secao-contato a{
+        font-size: 0.6rem;
+    }
+
+    .box p{
+        font-size: 0.5rem;
+    }
+
+    .box .mensagem{
+        font-size: 0.5rem;
+    }
+
+    .box iframe{
+        width: 150px;
+        height: 185px;
+    }
+
+    footer h3{
+        font-size: 0.55rem;
+    }
+
+    footer .endereco{
+        font-size: 0.4rem;
+    }
+
+    footer i{
+        width: 5px;
+    }
+
+    footer .copy{
+        margin: 0 auto;
+        font-size: 0.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 550px)  {
+    header .check-label{
+        left: 430px; 
+    }
+    .imagem-principal img{
+        width: 100%;
+        height: 340px;   
+    }
+
+}
+@media only screen and (max-width: 495px)  {
+    header .check-label{
+        left: 385px; 
+    }
+    .sobre-nos p{
+        padding-left: 28px;
+    }
+    .texto-direita .sub-resumo{
+        padding-left: 20px;
+    }
+}
+@media only screen and (max-width: 445px)  {
+    header .check-label{
+        left: 330px; 
+    }
+    .sobre-nos p{
+        padding-left: 35px;
+    }
+    .texto-direita .sub-resumo{
+        padding-left: 30px;
+    }
+}
+@media only screen and (max-width: 395px)  {
+    header .check-label{
+        left: 280px; 
+    }
+
+    .secao-endereco{
+        margin-right: 40px;
+    }
+}
+@media only screen and (max-width: 390px)  {
+    header .check-label{
+        left: 240px; 
+    }
+    .imagem-principal img{
+        width: 100%;
+        height: 290px;   
+    }
+    .sobre-nos p{
+        padding-left: 39px;
+    }
+    .texto-direita .sub-resumo{
+        padding-left: 38px;
+    }
+    .secao-endereco{
+        margin-right: 40px;
+    }
+}
+@media only screen and (max-width: 305px)  {
+    header .check-label{
+        left: 200px; 
+    }
+
+    .secao-endereco{
+        margin-right: 40px;
+    }
+    
+}
+
+
+
+
