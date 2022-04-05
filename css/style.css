@@ -655,7 +655,7 @@ footer .images{
         padding-left: 30px;
     }
     .menu-cabecalho ul{
-        top: 267px;
+        top: 520px;
     }
 }
 @media only screen and (max-width: 395px)  {
@@ -665,6 +665,10 @@ footer .images{
 
     .secao-endereco{
         margin-right: 40px;
+    }
+
+    .menu-cabecalho ul{
+        top: 590px;
     }
 }
 @media only screen and (max-width: 390px)  {
@@ -685,7 +689,7 @@ footer .images{
         margin-right: 40px;
     }
     .menu-cabecalho ul{
-        top: 275px;
+        top: 450px;
     }
 }
 @media only screen and (max-width: 305px)  {
