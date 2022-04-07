@@ -46,6 +46,7 @@ header{
 .menu-cabecalho ul li{
     padding: 10px 20px;
     transition: all 0.3s;
+    border-bottom: 3px solid goldenrod;
 }
 .menu-cabecalho ul li a{
     text-decoration: none;
