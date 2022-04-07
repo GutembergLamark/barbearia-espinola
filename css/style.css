@@ -46,7 +46,7 @@ header{
 .menu-cabecalho ul li{
     padding: 10px 20px;
     transition: all 0.3s;
-    border-bottom: 3px solid goldenrod;
+    border-bottom: 3px solid transparent;
 }
 .menu-cabecalho ul li a{
     text-decoration: none;
@@ -497,9 +497,13 @@ footer .images{
         color: #fff;
     }
 
+    .menu-cabecalho ul li{
+        border-bottom: none;
+    }
+
     .menu-cabecalho ul li:hover{
         opacity: 0.7;
-        border: none;
+        border-bottom: none;
         
     }
     
@@ -625,6 +629,13 @@ footer .images{
         width: 100%;
         height: 340px;   
     }
+    .menu-cabecalho ul li{
+        border-bottom: none;
+    }
+
+    .menu-cabecalho ul li:hover{
+        border-bottom: none;
+    }
 
 }
 @media only screen and (max-width: 495px)  {
@@ -640,6 +651,13 @@ footer .images{
     .menu-cabecalho ul{
         top: 260px;
     }
+    .menu-cabecalho ul li{
+        border-bottom: none;
+    }
+
+    .menu-cabecalho ul li:hover{
+        border-bottom: none;
+    }
     
 }
 @media only screen and (max-width: 445px)  {
@@ -654,6 +672,13 @@ footer .images{
     }
     .menu-cabecalho ul{
         top: 520px;
+    }
+    .menu-cabecalho ul li{
+        border-bottom: none;
+    }
+
+    .menu-cabecalho ul li:hover{
+        border-bottom: none;
     }
 
     .contato .mensagem{
@@ -678,6 +703,14 @@ footer .images{
     .menu-cabecalho ul{
         top: 590px;
     }
+
+    .menu-cabecalho ul li{
+        border-bottom: none;
+    }
+
+    .menu-cabecalho ul li:hover{
+        border-bottom: none;
+    }
 }
 @media only screen and (max-width: 390px)  {
     header .check-label{
@@ -699,6 +732,13 @@ footer .images{
     .menu-cabecalho ul{
         top: 450px;
     }
+    .menu-cabecalho ul li{
+        border-bottom: none;
+    }
+
+    .menu-cabecalho ul li:hover{
+        border-bottom: none;
+    }
 }
 @media only screen and (max-width: 305px)  {
     header .check-label{
@@ -707,6 +747,13 @@ footer .images{
 
     .secao-endereco{
         margin-right: 40px;
+    }
+    .menu-cabecalho ul li{
+        border-bottom: none;
+    }
+
+    .menu-cabecalho ul li:hover{
+        border-bottom: none;
     }
     
 }
